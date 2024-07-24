@@ -1,0 +1,76 @@
+main.dark .back_button{
+  background-color: hsl(208, 29%, 22%) ;
+}
+main.dark .image-div{
+  background-color: hsl(208, 29%, 22%) ;
+}
+main.dark .shimmer-text{
+  background-color: hsl(208, 29%, 22%) ;
+}
+
+
+.country-details-container {
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 32px;
+}
+.back_button{
+  height: 35px;
+  width: 90px;
+  border-radius: 4px;
+  background-color: #ccc;
+}
+
+.image-div{
+  height: 250px;
+  width: 40%;
+  background-color: #ccc;
+}
+
+.details-textContainer{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.shimmer-text{
+  height: 20px;
+  border-radius: 10px;
+  width: 60%;
+  background-color: #ccc;
+}
+
+.shimmer-text:first-child{
+  height: 40px;
+}
+
+.shimmer-text:last-child{
+  width: 40%;
+}
+
+@media(max-width: 940px) {
+  .details-text-container {
+      flex-direction: column;
+      align-items: flex-start;
+      margin-top: 32px;
+      gap: 30px;
+  }
+
+  .shimmer-text{
+    margin: 0 auto;
+    height: 20px;
+    border-radius: 10px;
+    width: 60%;
+    background-color: #ccc;
+  }
+  .details-text {
+      max-height: unset;
+  }
+
+  .image-div{
+      width: 100%;
+      max-width: 400px;
+  }
+
+}
